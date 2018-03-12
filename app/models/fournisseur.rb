@@ -1,6 +1,5 @@
 class Fournisseur < ApplicationRecord
-  has_many :produits
+  has_many :produits, dependent: :destroy
 
-  validates :nom, :description, presence: true
-  validates :quantite, :prix, presence: true, numericality: true
+  validates :nom, :adresse, :tel, presence: true
 end
