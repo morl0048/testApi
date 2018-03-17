@@ -50,3 +50,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Serialisation de donnees en JSON
 gem 'active_model_serializers','0.10.0'
+
+# Authentification des API WEB dans Rails
+gem 'devise'
+gem 'jwt'
