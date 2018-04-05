@@ -45,4 +45,4 @@ module Api::V1
       @fournisseur = Fournisseur.find(params[:id])
     end
   end
-end 
+end
